@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const icons = require\\(''@fortawesome/free-solid-svg-icons''\\); const needed = [''faXmark'',''faFolderPlus'',''faUserPlus'',''faCircleInfo'',''faHouse'',''faCheckDouble'',''faPlus'',''faBars'',''faFolder'',''faListCheck'',''faChartSimple'',''faBell'',''faArrowRightFromBracket'',''faSearch'',''faChevronDown'',''faGear'',''faCookieBite'',''faLightbulb'',''faPen'',''faTrash'',''faArrowRight'',''faCheck'',''faExclamation'',''faCode'',''faPalette'',''faBullhorn'',''faCalendar'',''faUser'']; needed.forEach\\(n => console.log\\(n, icons[n] ? ''OK'' : ''MISSING''\\)\\);\")",
+      "Bash(node -e \":*)"
+    ]
+  }
+}
