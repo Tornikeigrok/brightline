@@ -1,15 +1,7 @@
 # BrightLine — Task Management App
 
-A full-stack project management and task tracking application built with React, TypeScript, and Vite.
+A full-stack project management and task tracking application built with React, TypeScript, and Node.js.
 
-## Features
-
-- Project & task management
-- Real-time collaboration with team members
-- Calendar view with deadlines
-- Analytics dashboard
-- Notifications & invitations
-- AI-powered calendar suggestions
 
 ## How to Run Locally
 
@@ -44,6 +36,7 @@ A full-stack project management and task tracking application built with React, 
 
 ## Tech Stack
 
+- Node.js
 - React 18
 - TypeScript
 - Vite
