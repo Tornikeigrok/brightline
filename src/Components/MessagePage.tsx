@@ -391,6 +391,7 @@ const weekStart = getMonday(new Date());
                   About
                 </button>
                 <button
+                  onClick={() => navigate("/Pricing")}
                   className="px-4 py-2 text-sm text-neutral-600 hover:text-black hover:bg-black/[0.04] rounded-lg transition-all"
                 >
                   Pricing
@@ -443,6 +444,7 @@ const weekStart = getMonday(new Date());
                   About
                 </button>
                 <button
+                  onClick={() => { navigate("/Pricing"); setMobileMenuOpen(false); }}
                   className="w-full text-left px-4 py-3 text-sm text-neutral-700 hover:bg-black/[0.04] rounded-lg transition-all"
                 >
                   Pricing

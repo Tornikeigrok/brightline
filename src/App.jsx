@@ -12,6 +12,7 @@ const Tasks        = lazy(() => import('./Components/Tasks'));
 const Calendar     = lazy(() => import('./Components/Calendar'));
 const Analytics    = lazy(() => import('./Components/Analytics'));
 const Notifications = lazy(() => import('./Components/Notifications'));
+const Pricing = lazy(()=> import('./Components/Pricing'));
 
 
 function App() {
@@ -59,6 +60,8 @@ function App() {
             <Notifications />
           </AuthoProvider>
         } />
+
+         <Route path="/Pricing" element={<Pricing />} />
 
    
 
